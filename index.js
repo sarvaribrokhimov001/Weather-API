@@ -65,7 +65,7 @@ function getWeather(city) {
 
       if (data.cod === '404') {
         Toastify({
-            text: "City is not found !",
+            text: "Shahar nomi xato kiritildi !",
             duration: 3500,
             gravity: "top",
             position: "center",
