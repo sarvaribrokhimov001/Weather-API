@@ -86,9 +86,9 @@ function getWeather(city) {
 function showWeather(data) {
   cards.innerHTML = `
     <div class="card">
-      <h2>${data.name}</h2>
-      <p>🌡️ ${data.main.temp} °C</p>
-      <p>🍃 ${data.wind.speed} m/s</p>
+      <h2> ${data.name} </h2>
+      <p> 🌡️ ${data.main.temp} °C </p>
+      <p> 🍃 ${data.wind.speed} m/s </p>
     </div>
   `;
 }
